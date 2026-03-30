@@ -126,10 +126,6 @@ a:focus {
     margin-right: 0;
   }
 
-  a {
-    /* Removed button-specific styling */
-  }
-
   .image-gallery {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: var(--spacing-sm);
@@ -235,9 +231,5 @@ a:focus {
 
   p {
     font-size: 1rem;
-  }
-
-  a {
-    width: 100%;
   }
 }
